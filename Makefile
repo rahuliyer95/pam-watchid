@@ -1,5 +1,5 @@
 PREFIX ?= /usr/local
-VERSION = 2
+VERSION = 2.1
 LIBRARY_NAME = pam_watchid.so
 DESTINATION = $(addprefix $(PREFIX), /lib/pam)
 TARGET := $(shell uname -m)-apple-darwin$(shell uname -r)
